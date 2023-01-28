@@ -1,0 +1,48 @@
+:root{
+    font-size: 1.25em;
+}
+body {
+    background-color: black;
+}
+.calculator-container {
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 8px;
+    align-items: top;
+    margin: 140px 500px 140px 500px;
+    padding: 5px 10px 10px 5px;
+}
+h1,h4{
+    display: inline;
+}
+input {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 250px;
+}
+div>span>input {
+    margin: 5px;
+}
+button {
+    margin: 0px 190px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 20px;
+}
+button:hover {
+    background-color: rgb(22, 137, 169);
+    color: white;
+}
+section{
+    align-self: center;
+    font-size: 40px;
+}
+span{
+    margin: 20px 0px;
+}
+h1 {
+    color: rgb(22, 137, 169);
+}
