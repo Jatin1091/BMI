@@ -1,16 +1,16 @@
-var heightInput = document.querySelector(".height-input-field");
-var weightInput = document.querySelector(".weight-input-field");
-var calculateButton = document.querySelector(".calculate");
-var result = document.querySelector(".result");
-var statement = document.querySelector(".result-statement");
+var hI = document.querySelector(".height-input");
+var wI = document.querySelector(".weight-input");
+var cal = document.querySelector(".cal");
+var res = document.querySelector(".res");
+var statement = document.querySelector(".statement");
 var BMI, height, weight;
 
-calculateButton.addEventListener("click", () => {
+cal.addEventListener("click", () => {
 
-    height = heightInput.value;
-    weight = weightInput.value;
+    height = hI.value;
+    weight = wI.value;
     BMI = weight / (height ** 2);
-    result.value = BMI;
+    res.value = BMI;
 
     if (document.getElementById('M').checked) {
         if (BMI < 18.5) {
